@@ -10,8 +10,6 @@
 		81CD3BBED22CA26628C87388 /* Pods_Currency_Forex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3F811C642553CA71E000E8 /* Pods_Currency_Forex.framework */; };
 		A94111BE9C3DD413DC22B1EB /* Pods_Currency_ForexTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2E8154425C8FA54496733A /* Pods_Currency_ForexTests.framework */; };
 		AB1FAB6B29326C3900AB8A6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FAB6A29326C3900AB8A6A /* AppDelegate.swift */; };
-		AB1FAB6D29326C3900AB8A6A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FAB6C29326C3900AB8A6A /* SceneDelegate.swift */; };
-		AB1FAB6F29326C3900AB8A6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FAB6E29326C3900AB8A6A /* ViewController.swift */; };
 		AB1FAB7429326C3B00AB8A6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB1FAB7329326C3B00AB8A6A /* Assets.xcassets */; };
 		AB1FAB7729326C3B00AB8A6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB1FAB7529326C3B00AB8A6A /* LaunchScreen.storyboard */; };
 		AB1FAB8229326C3B00AB8A6A /* Currency_ForexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FAB8129326C3B00AB8A6A /* Currency_ForexTests.swift */; };
@@ -19,6 +17,14 @@
 		AB1FAB8E29326C3B00AB8A6A /* Currency_ForexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FAB8D29326C3B00AB8A6A /* Currency_ForexUITestsLaunchTests.swift */; };
 		AB1FAB9C2932769E00AB8A6A /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = AB1FAB9B2932769E00AB8A6A /* Alamofire */; };
 		AB1FAB9F293276C100AB8A6A /* AlamofireNetworkActivityLogger in Frameworks */ = {isa = PBXBuildFile; productRef = AB1FAB9E293276C100AB8A6A /* AlamofireNetworkActivityLogger */; };
+		AB1FABAB2932876200AB8A6A /* BindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FABA12932876200AB8A6A /* BindableType.swift */; };
+		AB1FABAC2932876200AB8A6A /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FABA22932876200AB8A6A /* AppCoordinator.swift */; };
+		AB1FABAE2932876200AB8A6A /* NibIdentifiable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FABA52932876200AB8A6A /* NibIdentifiable.swift */; };
+		AB1FABAF2932876200AB8A6A /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FABA72932876200AB8A6A /* Constants.swift */; };
+		AB1FABB429328A5B00AB8A6A /* BestRatesVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FABB029328A5B00AB8A6A /* BestRatesVM.swift */; };
+		AB1FABB529328A5B00AB8A6A /* BestRatesVMImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FABB129328A5B00AB8A6A /* BestRatesVMImpl.swift */; };
+		AB1FABB629328A5B00AB8A6A /* BestRatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FABB229328A5B00AB8A6A /* BestRatesVC.swift */; };
+		AB1FABB729328A5B00AB8A6A /* BestRatesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB1FABB329328A5B00AB8A6A /* BestRatesVC.xib */; };
 		F40D8602A14DAE47EDD54D3E /* Pods_Currency_Forex_Currency_ForexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E0DA300C81799276573768 /* Pods_Currency_Forex_Currency_ForexUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,8 +55,6 @@
 		9D2CB895E54EE4BA9DDD3BCF /* Pods-Currency ForexTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency ForexTests.release.xcconfig"; path = "Target Support Files/Pods-Currency ForexTests/Pods-Currency ForexTests.release.xcconfig"; sourceTree = "<group>"; };
 		AB1FAB6729326C3900AB8A6A /* Currency Forex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Currency Forex.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1FAB6A29326C3900AB8A6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB1FAB6C29326C3900AB8A6A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB1FAB6E29326C3900AB8A6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AB1FAB7329326C3B00AB8A6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB1FAB7629326C3B00AB8A6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB1FAB7829326C3B00AB8A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +63,14 @@
 		AB1FAB8729326C3B00AB8A6A /* Currency ForexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Currency ForexUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1FAB8B29326C3B00AB8A6A /* Currency_ForexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency_ForexUITests.swift; sourceTree = "<group>"; };
 		AB1FAB8D29326C3B00AB8A6A /* Currency_ForexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency_ForexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB1FABA12932876200AB8A6A /* BindableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
+		AB1FABA22932876200AB8A6A /* AppCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		AB1FABA52932876200AB8A6A /* NibIdentifiable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibIdentifiable.swift; sourceTree = "<group>"; };
+		AB1FABA72932876200AB8A6A /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		AB1FABB029328A5B00AB8A6A /* BestRatesVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestRatesVM.swift; sourceTree = "<group>"; };
+		AB1FABB129328A5B00AB8A6A /* BestRatesVMImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestRatesVMImpl.swift; sourceTree = "<group>"; };
+		AB1FABB229328A5B00AB8A6A /* BestRatesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestRatesVC.swift; sourceTree = "<group>"; };
+		AB1FABB329328A5B00AB8A6A /* BestRatesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BestRatesVC.xib; sourceTree = "<group>"; };
 		DC3F811C642553CA71E000E8 /* Pods_Currency_Forex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Currency_Forex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F1BD2B6C7099FC504FC881 /* Pods-Currency Forex-Currency ForexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency Forex-Currency ForexUITests.release.xcconfig"; path = "Target Support Files/Pods-Currency Forex-Currency ForexUITests/Pods-Currency Forex-Currency ForexUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -128,9 +140,10 @@
 		AB1FAB6929326C3900AB8A6A /* Currency Forex */ = {
 			isa = PBXGroup;
 			children = (
+				AB1FABA62932876200AB8A6A /* ApplicationLayer */,
+				AB1FABA02932876200AB8A6A /* CoreLayer */,
+				AB1FABA82932876200AB8A6A /* PresentationLayer */,
 				AB1FAB6A29326C3900AB8A6A /* AppDelegate.swift */,
-				AB1FAB6C29326C3900AB8A6A /* SceneDelegate.swift */,
-				AB1FAB6E29326C3900AB8A6A /* ViewController.swift */,
 				AB1FAB7329326C3B00AB8A6A /* Assets.xcassets */,
 				AB1FAB7529326C3B00AB8A6A /* LaunchScreen.storyboard */,
 				AB1FAB7829326C3B00AB8A6A /* Info.plist */,
@@ -155,6 +168,59 @@
 			path = "Currency ForexUITests";
 			sourceTree = "<group>";
 		};
+		AB1FABA02932876200AB8A6A /* CoreLayer */ = {
+			isa = PBXGroup;
+			children = (
+				AB1FABA32932876200AB8A6A /* Extensions */,
+				AB1FABA12932876200AB8A6A /* BindableType.swift */,
+				AB1FABA22932876200AB8A6A /* AppCoordinator.swift */,
+				AB1FABA52932876200AB8A6A /* NibIdentifiable.swift */,
+			);
+			path = CoreLayer;
+			sourceTree = "<group>";
+		};
+		AB1FABA32932876200AB8A6A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB1FABA62932876200AB8A6A /* ApplicationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				AB1FABA72932876200AB8A6A /* Constants.swift */,
+			);
+			path = ApplicationLayer;
+			sourceTree = "<group>";
+		};
+		AB1FABA82932876200AB8A6A /* PresentationLayer */ = {
+			isa = PBXGroup;
+			children = (
+				AB1FABA92932876200AB8A6A /* Scenes */,
+			);
+			path = PresentationLayer;
+			sourceTree = "<group>";
+		};
+		AB1FABA92932876200AB8A6A /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AB1FABAA2932876200AB8A6A /* BestRates */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		AB1FABAA2932876200AB8A6A /* BestRates */ = {
+			isa = PBXGroup;
+			children = (
+				AB1FABB229328A5B00AB8A6A /* BestRatesVC.swift */,
+				AB1FABB329328A5B00AB8A6A /* BestRatesVC.xib */,
+				AB1FABB029328A5B00AB8A6A /* BestRatesVM.swift */,
+				AB1FABB129328A5B00AB8A6A /* BestRatesVMImpl.swift */,
+			);
+			path = BestRates;
+			sourceTree = "<group>";
+		};
 		EB86811C3FE4E197557BF691 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,7 +231,6 @@
 				2D15C30198119DE2D2BC7030 /* Pods-Currency ForexTests.debug.xcconfig */,
 				9D2CB895E54EE4BA9DDD3BCF /* Pods-Currency ForexTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -268,8 +333,8 @@
 			);
 			mainGroup = AB1FAB5E29326C3900AB8A6A;
 			packageReferences = (
-				AB1FAB9A2932769E00AB8A6A /* XCRemoteSwiftPackageReference "Alamofire.git" */,
-				AB1FAB9D293276C100AB8A6A /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger.git" */,
+				AB1FAB9A2932769E00AB8A6A /* XCRemoteSwiftPackageReference "Alamofire" */,
+				AB1FAB9D293276C100AB8A6A /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */,
 			);
 			productRefGroup = AB1FAB6829326C3900AB8A6A /* Products */;
 			projectDirPath = "";
@@ -289,6 +354,7 @@
 			files = (
 				AB1FAB7729326C3B00AB8A6A /* LaunchScreen.storyboard in Resources */,
 				AB1FAB7429326C3B00AB8A6A /* Assets.xcassets in Resources */,
+				AB1FABB729328A5B00AB8A6A /* BestRatesVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,9 +499,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB1FAB6F29326C3900AB8A6A /* ViewController.swift in Sources */,
+				AB1FABAB2932876200AB8A6A /* BindableType.swift in Sources */,
+				AB1FABAE2932876200AB8A6A /* NibIdentifiable.swift in Sources */,
+				AB1FABAC2932876200AB8A6A /* AppCoordinator.swift in Sources */,
+				AB1FABB429328A5B00AB8A6A /* BestRatesVM.swift in Sources */,
+				AB1FABB629328A5B00AB8A6A /* BestRatesVC.swift in Sources */,
 				AB1FAB6B29326C3900AB8A6A /* AppDelegate.swift in Sources */,
-				AB1FAB6D29326C3900AB8A6A /* SceneDelegate.swift in Sources */,
+				AB1FABAF2932876200AB8A6A /* Constants.swift in Sources */,
+				AB1FABB529328A5B00AB8A6A /* BestRatesVMImpl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,6 +678,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8QSU2T2BY;
 				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_FLATTEN_NIBS = YES;
 				INFOPLIST_FILE = "Currency Forex/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -638,6 +710,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Z8QSU2T2BY;
 				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_FLATTEN_NIBS = YES;
 				INFOPLIST_FILE = "Currency Forex/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -781,7 +854,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		AB1FAB9A2932769E00AB8A6A /* XCRemoteSwiftPackageReference "Alamofire.git" */ = {
+		AB1FAB9A2932769E00AB8A6A /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
 			requirement = {
@@ -789,7 +862,7 @@
 				minimumVersion = 5.0.0;
 			};
 		};
-		AB1FAB9D293276C100AB8A6A /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger.git" */ = {
+		AB1FAB9D293276C100AB8A6A /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/konkab/AlamofireNetworkActivityLogger.git";
 			requirement = {
@@ -802,12 +875,12 @@
 /* Begin XCSwiftPackageProductDependency section */
 		AB1FAB9B2932769E00AB8A6A /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AB1FAB9A2932769E00AB8A6A /* XCRemoteSwiftPackageReference "Alamofire.git" */;
+			package = AB1FAB9A2932769E00AB8A6A /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 		AB1FAB9E293276C100AB8A6A /* AlamofireNetworkActivityLogger */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = AB1FAB9D293276C100AB8A6A /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger.git" */;
+			package = AB1FAB9D293276C100AB8A6A /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */;
 			productName = AlamofireNetworkActivityLogger;
 		};
 /* End XCSwiftPackageProductDependency section */

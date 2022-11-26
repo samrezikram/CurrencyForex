@@ -9,6 +9,9 @@ PODS:
   - RxCocoa (6.5.0):
     - RxRelay (= 6.5.0)
     - RxSwift (= 6.5.0)
+  - RxGesture (4.0.4):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
   - RxRelay (6.5.0):
     - RxSwift (= 6.5.0)
   - RxSwift (6.5.0)
@@ -30,6 +33,7 @@ DEPENDENCIES:
   - Nimble (~> 10.0.0)
   - Quick (~> 5.0.1)
   - RxCocoa (~> 6.5.0)
+  - RxGesture (~> 4.0.4)
   - RxTest (~> 6.5.0)
   - SkeletonView (~> 1.30.4)
   - SwiftDate (~> 7.0.0)
@@ -44,6 +48,7 @@ SPEC REPOS:
     - Nimble
     - Quick
     - RxCocoa
+    - RxGesture
     - RxRelay
     - RxSwift
     - RxTest
@@ -60,6 +65,7 @@ SPEC CHECKSUMS:
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
   RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxGesture: f3efb47ed2d26a8082f7b660d4a59970e275a7f8
   RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
   RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
   RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
@@ -69,6 +75,6 @@ SPEC CHECKSUMS:
   ZVActivityIndicatorView: fea0b3a8d8e0f54a106db3c6d543f7d5444cd9ea
   ZVProgressHUD: dfa70d6d3a0ba98826f2fd9b73d2e2b01a69967e
 
-PODFILE CHECKSUM: 87ab581d09acbdace16b02e2ed8364f70e8d13fd
+PODFILE CHECKSUM: 014e977dd2dcde200d9545cc076e4d4ede122e20
 
 COCOAPODS: 1.11.3

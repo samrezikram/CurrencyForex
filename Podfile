@@ -23,6 +23,7 @@ target 'Currency Forex' do
   #  Reactive
   pod 'Action', '~> 5.0.0'
   pod 'RxCocoa', '~> 6.5.0'
+  pod 'RxGesture', '~> 4.0.4'
 
   pod 'ZVProgressHUD', '~> 3.0.6'
 
@@ -39,7 +40,8 @@ target 'Currency Forex' do
     #   Reactive
     pod 'Action', '~> 5.0.0'
     pod 'RxCocoa', '~> 6.5.0'
-    
+    pod 'RxGesture', '~> 4.0.4'
+
     #   Loading Indicator
     pod 'ZVProgressHUD', '~> 3.0.6'
 
