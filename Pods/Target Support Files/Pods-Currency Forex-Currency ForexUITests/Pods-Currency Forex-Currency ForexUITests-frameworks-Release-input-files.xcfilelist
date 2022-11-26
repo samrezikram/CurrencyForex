@@ -1,0 +1,12 @@
+${PODS_ROOT}/Target Support Files/Pods-Currency Forex-Currency ForexUITests/Pods-Currency Forex-Currency ForexUITests-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Action/Action.framework
+${BUILT_PRODUCTS_DIR}/AnyCodable-FlightSchool/AnyCodable.framework
+${BUILT_PRODUCTS_DIR}/FlagKit/FlagKit.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework
+${BUILT_PRODUCTS_DIR}/SwiftDate/SwiftDate.framework
+${BUILT_PRODUCTS_DIR}/XCoordinator/XCoordinator.framework
+${BUILT_PRODUCTS_DIR}/ZVActivityIndicatorView/ZVActivityIndicatorView.framework
+${BUILT_PRODUCTS_DIR}/ZVProgressHUD/ZVProgressHUD.framework

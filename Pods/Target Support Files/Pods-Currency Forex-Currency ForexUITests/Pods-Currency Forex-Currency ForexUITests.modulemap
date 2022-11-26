@@ -1,0 +1,6 @@
+framework module Pods_Currency_Forex_Currency_ForexUITests {
+  umbrella header "Pods-Currency Forex-Currency ForexUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,74 @@
+PODS:
+  - Action (5.0.0):
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - AnyCodable-FlightSchool (0.6.7)
+  - FlagKit (2.2)
+  - Nimble (10.0.0)
+  - Quick (5.0.1)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - RxTest (6.5.0):
+    - RxSwift (= 6.5.0)
+  - SkeletonView (1.30.4)
+  - SwiftDate (7.0.0)
+  - XCoordinator (2.2.0):
+    - XCoordinator/Core (= 2.2.0)
+  - XCoordinator/Core (2.2.0)
+  - ZVActivityIndicatorView (1.0.0)
+  - ZVProgressHUD (3.0.6):
+    - ZVActivityIndicatorView
+
+DEPENDENCIES:
+  - Action (~> 5.0.0)
+  - AnyCodable-FlightSchool (~> 0.6.5)
+  - FlagKit (~> 2.2)
+  - Nimble (~> 10.0.0)
+  - Quick (~> 5.0.1)
+  - RxCocoa (~> 6.5.0)
+  - RxTest (~> 6.5.0)
+  - SkeletonView (~> 1.30.4)
+  - SwiftDate (~> 7.0.0)
+  - XCoordinator (~> 2.2.0)
+  - ZVProgressHUD (~> 3.0.6)
+
+SPEC REPOS:
+  trunk:
+    - Action
+    - AnyCodable-FlightSchool
+    - FlagKit
+    - Nimble
+    - Quick
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - SkeletonView
+    - SwiftDate
+    - XCoordinator
+    - ZVActivityIndicatorView
+    - ZVProgressHUD
+
+SPEC CHECKSUMS:
+  Action: 47f1825511907b4fcd79dd7a7db9526c20f78018
+  AnyCodable-FlightSchool: 261cbe76757802b17d471b9059b21e6fa5edf57b
+  FlagKit: eca7dc89064b0c986302ba9acefad1bf80a435b1
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  RxTest: eb2d23adefc5a5ebf5779c7792fa3edfe6ebcc17
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  SwiftDate: bbc26e26fc8c0c33fbee8c140c5e8a68293a148a
+  XCoordinator: a5f91e43ee944f508529763921165697d3211629
+  ZVActivityIndicatorView: fea0b3a8d8e0f54a106db3c6d543f7d5444cd9ea
+  ZVProgressHUD: dfa70d6d3a0ba98826f2fd9b73d2e2b01a69967e
+
+PODFILE CHECKSUM: 87ab581d09acbdace16b02e2ed8364f70e8d13fd
+
+COCOAPODS: 1.11.3
