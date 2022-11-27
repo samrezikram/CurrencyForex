@@ -26,14 +26,14 @@ PODS:
     - ZVActivityIndicatorView
 
 DEPENDENCIES:
-  - Action (~> 5.0.0)
+  - Action
   - AnyCodable-FlightSchool (~> 0.6.5)
   - FlagKit (~> 2.2)
   - Nimble (~> 10.0.0)
   - Quick (~> 5.0.1)
-  - RxCocoa (~> 6.5.0)
-  - RxGesture (~> 4.0.4)
-  - RxTest (~> 6.5.0)
+  - RxCocoa
+  - RxGesture
+  - RxTest
   - SkeletonView (~> 1.30.4)
   - XCoordinator (~> 2.2.0)
   - ZVProgressHUD (~> 3.0.6)
@@ -71,6 +71,6 @@ SPEC CHECKSUMS:
   ZVActivityIndicatorView: fea0b3a8d8e0f54a106db3c6d543f7d5444cd9ea
   ZVProgressHUD: dfa70d6d3a0ba98826f2fd9b73d2e2b01a69967e
 
-PODFILE CHECKSUM: c811210dae881427e7bd2c5d879d5cf47ffe4b2b
+PODFILE CHECKSUM: 494a51820f57b9c981a2e40bb638c77581168e7b
 
 COCOAPODS: 1.11.3

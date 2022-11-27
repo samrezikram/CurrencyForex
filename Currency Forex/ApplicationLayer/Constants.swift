@@ -29,5 +29,6 @@ struct Constants {
     static let currentLocale = "en_US"
     static let debounceInputInterval = 500
     static let debounceInputRquestInterval = 1500
+    static let defaultCCA2Code = "AE"
   }
 }

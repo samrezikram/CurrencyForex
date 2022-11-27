@@ -16,6 +16,6 @@ protocol PaymentService {
 struct PaymentServiceImpl:  HTTPClient, PaymentService {
 
   func accountInfo() async -> Result<Bool, ErrorItem> {
-    return await performRequest(endpoint: PaymentEndpoint.accountInfo, responseModel: Bool.self)  }
+    return await performRequest(endpoint: PaymentEndpoint.fluctuation, responseModel: Bool.self)  }
 
 }

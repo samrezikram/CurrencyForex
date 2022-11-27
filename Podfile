@@ -18,10 +18,9 @@ target 'Currency Forex' do
   pod 'AnyCodable-FlightSchool', '~> 0.6.5'
 
   #  Reactive
-  pod 'Action', '~> 5.0.0'
-  pod 'RxCocoa', '~> 6.5.0'
-  pod 'RxGesture', '~> 4.0.4'
-
+  pod 'Action'
+  pod 'RxCocoa'
+  pod 'RxGesture'
   pod 'ZVProgressHUD', '~> 3.0.6'
 
   #   Currency Flags
@@ -35,9 +34,9 @@ target 'Currency Forex' do
     pod 'AnyCodable-FlightSchool', '~> 0.6.5'
 
     #   Reactive
-    pod 'Action', '~> 5.0.0'
-    pod 'RxCocoa', '~> 6.5.0'
-    pod 'RxGesture', '~> 4.0.4'
+    pod 'Action'
+    pod 'RxCocoa'
+    pod 'RxGesture'
 
     #   Loading Indicator
     pod 'ZVProgressHUD', '~> 3.0.6'
@@ -49,7 +48,7 @@ target 'Currency Forex' do
     pod 'Quick', '~> 5.0.1'
     pod 'Nimble', '~> 10.0.0'
 
-    pod 'RxTest', '~> 6.5.0'
+    pod 'RxTest'
   end
 
   target 'Currency ForexUITests' do

@@ -17,7 +17,8 @@ enum AppRoute: Route {
 /// Main application coordinator
 class AppCoordinator: NavigationCoordinator<AppRoute> {
   
-  
+  let paymentService = PaymentServiceImpl()
+
   init() {
     let route: AppRoute =  .bestRates
     
@@ -33,7 +34,7 @@ class AppCoordinator: NavigationCoordinator<AppRoute> {
     switch route {
     case .bestRates:
       let viewController = BestRatesVC.instantiateFromNib()
-      let viewModel = BestRatesVMImpl(router: unownedRouter, isFirstLaunch: true)
+      let viewModel = BestRatesVMImpl(router: unownedRouter, paymentService: self.paymentService, isFirstLaunch: true)
       viewController.bind(to: viewModel)
       return .push(viewController)
 

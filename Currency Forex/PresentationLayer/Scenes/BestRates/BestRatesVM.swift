@@ -11,6 +11,8 @@ import RxCocoa
 
 protocol BestRatesVMInput {
   var detailTrigger: AnyObserver<Void> { get }
+  var sourceCurrencyTrigger: AnyObserver<Void> { get }
+  var destinationCurrencyTrigger: AnyObserver<Void> { get }
 }
 
 protocol BestRatesVMOutput {
@@ -21,6 +23,10 @@ protocol BestRatesVMOutput {
   var sourceAmount: BehaviorRelay<String?> { get }
   var targetAmount: BehaviorRelay<String?> { get }
   var isError: BehaviorRelay<Bool> { get }
+  var sourceCountry: BehaviorRelay<CountryItem> { get }
+  var destinationCountry: BehaviorRelay<CountryItem> { get }
+
+  var remittance​Countries: BehaviorRelay<[CountryNameItem]?> { get }
 
 }
 
