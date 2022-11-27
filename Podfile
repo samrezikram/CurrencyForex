@@ -10,9 +10,6 @@ target 'Currency Forex' do
   #   Navigation
   pod 'XCoordinator', '~> 2.2.0'
 
-  # Section currency
-  pod 'SwiftDate', '~> 7.0.0'
-
   #   UI
   pod 'SkeletonView', '~> 1.30.4'
   pod 'SkeletonView', '~> 1.30.4'

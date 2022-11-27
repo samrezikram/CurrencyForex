@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -25,6 +25,19 @@
 		AB1FABB529328A5B00AB8A6A /* BestRatesVMImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FABB129328A5B00AB8A6A /* BestRatesVMImpl.swift */; };
 		AB1FABB629328A5B00AB8A6A /* BestRatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB1FABB229328A5B00AB8A6A /* BestRatesVC.swift */; };
 		AB1FABB729328A5B00AB8A6A /* BestRatesVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB1FABB329328A5B00AB8A6A /* BestRatesVC.xib */; };
+		AB55709B2933624B0068F164 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55709A2933624B0068F164 /* PaymentService.swift */; };
+		AB55709D2933649A0068F164 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB55709C2933649A0068F164 /* HTTPClient.swift */; };
+		AB5570A429336F330068F164 /* ErrorDetailsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5570A129336F330068F164 /* ErrorDetailsItem.swift */; };
+		AB5570A529336F330068F164 /* ErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5570A229336F330068F164 /* ErrorCode.swift */; };
+		AB5570A629336F330068F164 /* ValidationErrorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5570A329336F330068F164 /* ValidationErrorItem.swift */; };
+		AB5570A8293377030068F164 /* ErrorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5570A7293377030068F164 /* ErrorItem.swift */; };
+		AB5570AA2933805C0068F164 /* PaymentEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5570A92933805C0068F164 /* PaymentEndpoint.swift */; };
+		AB5570AC2933833A0068F164 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5570AB2933833A0068F164 /* Endpoint.swift */; };
+		AB5570AF29338D3B0068F164 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = AB5570AE29338D3B0068F164 /* SwiftDate */; };
+		AB5570B129338E120068F164 /* String + Estensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5570B029338E120068F164 /* String + Estensions.swift */; };
+		AB5570B3293390510068F164 /* Date + Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5570B2293390510068F164 /* Date + Extensions.swift */; };
+		AB5570B5293392AB0068F164 /* ResponseErrorItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5570B4293392AB0068F164 /* ResponseErrorItem.swift */; };
+		AB5570B82933A05C0068F164 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB5570B72933A05C0068F164 /* Environment.swift */; };
 		F40D8602A14DAE47EDD54D3E /* Pods_Currency_Forex_Currency_ForexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E0DA300C81799276573768 /* Pods_Currency_Forex_Currency_ForexUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -71,6 +84,19 @@
 		AB1FABB129328A5B00AB8A6A /* BestRatesVMImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestRatesVMImpl.swift; sourceTree = "<group>"; };
 		AB1FABB229328A5B00AB8A6A /* BestRatesVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BestRatesVC.swift; sourceTree = "<group>"; };
 		AB1FABB329328A5B00AB8A6A /* BestRatesVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BestRatesVC.xib; sourceTree = "<group>"; };
+		AB55709A2933624B0068F164 /* PaymentService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
+		AB55709C2933649A0068F164 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		AB5570A129336F330068F164 /* ErrorDetailsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorDetailsItem.swift; sourceTree = "<group>"; };
+		AB5570A229336F330068F164 /* ErrorCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorCode.swift; sourceTree = "<group>"; };
+		AB5570A329336F330068F164 /* ValidationErrorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidationErrorItem.swift; sourceTree = "<group>"; };
+		AB5570A7293377030068F164 /* ErrorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorItem.swift; sourceTree = "<group>"; };
+		AB5570A92933805C0068F164 /* PaymentEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentEndpoint.swift; sourceTree = "<group>"; };
+		AB5570AB2933833A0068F164 /* Endpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		AB5570B029338E120068F164 /* String + Estensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String + Estensions.swift"; sourceTree = "<group>"; };
+		AB5570B2293390510068F164 /* Date + Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date + Extensions.swift"; sourceTree = "<group>"; };
+		AB5570B4293392AB0068F164 /* ResponseErrorItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseErrorItem.swift; sourceTree = "<group>"; };
+		AB5570B72933A05C0068F164 /* Environment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		AB5570B92933A08C0068F164 /* Config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Config.xcconfig; sourceTree = "<group>"; };
 		DC3F811C642553CA71E000E8 /* Pods_Currency_Forex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Currency_Forex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F1BD2B6C7099FC504FC881 /* Pods-Currency Forex-Currency ForexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency Forex-Currency ForexUITests.release.xcconfig"; path = "Target Support Files/Pods-Currency Forex-Currency ForexUITests/Pods-Currency Forex-Currency ForexUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB5570AF29338D3B0068F164 /* SwiftDate in Frameworks */,
 				AB1FAB9C2932769E00AB8A6A /* Alamofire in Frameworks */,
 				AB1FAB9F293276C100AB8A6A /* AlamofireNetworkActivityLogger in Frameworks */,
 				81CD3BBED22CA26628C87388 /* Pods_Currency_Forex.framework in Frameworks */,
@@ -143,10 +170,12 @@
 				AB1FABA62932876200AB8A6A /* ApplicationLayer */,
 				AB1FABA02932876200AB8A6A /* CoreLayer */,
 				AB1FABA82932876200AB8A6A /* PresentationLayer */,
+				AB55709E29336F330068F164 /* Business Logic Layer */,
 				AB1FAB6A29326C3900AB8A6A /* AppDelegate.swift */,
 				AB1FAB7329326C3B00AB8A6A /* Assets.xcassets */,
 				AB1FAB7529326C3B00AB8A6A /* LaunchScreen.storyboard */,
 				AB1FAB7829326C3B00AB8A6A /* Info.plist */,
+				AB5570B62933A0370068F164 /* SupportingFiles */,
 			);
 			path = "Currency Forex";
 			sourceTree = "<group>";
@@ -171,6 +200,7 @@
 		AB1FABA02932876200AB8A6A /* CoreLayer */ = {
 			isa = PBXGroup;
 			children = (
+				AB5570962933597C0068F164 /* Network */,
 				AB1FABA32932876200AB8A6A /* Extensions */,
 				AB1FABA12932876200AB8A6A /* BindableType.swift */,
 				AB1FABA22932876200AB8A6A /* AppCoordinator.swift */,
@@ -182,6 +212,8 @@
 		AB1FABA32932876200AB8A6A /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				AB5570B2293390510068F164 /* Date + Extensions.swift */,
+				AB5570B029338E120068F164 /* String + Estensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -221,6 +253,78 @@
 			path = BestRates;
 			sourceTree = "<group>";
 		};
+		AB5570962933597C0068F164 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				AB5570982933597C0068F164 /* Base */,
+				AB5570972933597C0068F164 /* EndPoints */,
+				AB5570992933597C0068F164 /* Services */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		AB5570972933597C0068F164 /* EndPoints */ = {
+			isa = PBXGroup;
+			children = (
+				AB5570A92933805C0068F164 /* PaymentEndpoint.swift */,
+			);
+			path = EndPoints;
+			sourceTree = "<group>";
+		};
+		AB5570982933597C0068F164 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AB5570AB2933833A0068F164 /* Endpoint.swift */,
+				AB55709C2933649A0068F164 /* HTTPClient.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		AB5570992933597C0068F164 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AB55709A2933624B0068F164 /* PaymentService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AB55709E29336F330068F164 /* Business Logic Layer */ = {
+			isa = PBXGroup;
+			children = (
+				AB55709F29336F330068F164 /* Entities */,
+			);
+			path = "Business Logic Layer";
+			sourceTree = "<group>";
+		};
+		AB55709F29336F330068F164 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				AB5570A029336F330068F164 /* Error */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		AB5570A029336F330068F164 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				AB5570A7293377030068F164 /* ErrorItem.swift */,
+				AB5570A129336F330068F164 /* ErrorDetailsItem.swift */,
+				AB5570A229336F330068F164 /* ErrorCode.swift */,
+				AB5570A329336F330068F164 /* ValidationErrorItem.swift */,
+				AB5570B4293392AB0068F164 /* ResponseErrorItem.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		AB5570B62933A0370068F164 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				AB5570B72933A05C0068F164 /* Environment.swift */,
+				AB5570B92933A08C0068F164 /* Config.xcconfig */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
 		EB86811C3FE4E197557BF691 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -255,6 +359,7 @@
 			packageProductDependencies = (
 				AB1FAB9B2932769E00AB8A6A /* Alamofire */,
 				AB1FAB9E293276C100AB8A6A /* AlamofireNetworkActivityLogger */,
+				AB5570AE29338D3B0068F164 /* SwiftDate */,
 			);
 			productName = "Currency Forex";
 			productReference = AB1FAB6729326C3900AB8A6A /* Currency Forex.app */;
@@ -324,7 +429,7 @@
 				};
 			};
 			buildConfigurationList = AB1FAB6229326C3900AB8A6A /* Build configuration list for PBXProject "Currency Forex" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -335,6 +440,7 @@
 			packageReferences = (
 				AB1FAB9A2932769E00AB8A6A /* XCRemoteSwiftPackageReference "Alamofire" */,
 				AB1FAB9D293276C100AB8A6A /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */,
+				AB5570AD29338D3B0068F164 /* XCRemoteSwiftPackageReference "SwiftDate" */,
 			);
 			productRefGroup = AB1FAB6829326C3900AB8A6A /* Products */;
 			projectDirPath = "";
@@ -500,13 +606,25 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB1FABAB2932876200AB8A6A /* BindableType.swift in Sources */,
+				AB5570B5293392AB0068F164 /* ResponseErrorItem.swift in Sources */,
+				AB5570B3293390510068F164 /* Date + Extensions.swift in Sources */,
 				AB1FABAE2932876200AB8A6A /* NibIdentifiable.swift in Sources */,
+				AB5570A429336F330068F164 /* ErrorDetailsItem.swift in Sources */,
 				AB1FABAC2932876200AB8A6A /* AppCoordinator.swift in Sources */,
 				AB1FABB429328A5B00AB8A6A /* BestRatesVM.swift in Sources */,
+				AB5570A629336F330068F164 /* ValidationErrorItem.swift in Sources */,
 				AB1FABB629328A5B00AB8A6A /* BestRatesVC.swift in Sources */,
+				AB5570B82933A05C0068F164 /* Environment.swift in Sources */,
 				AB1FAB6B29326C3900AB8A6A /* AppDelegate.swift in Sources */,
+				AB55709D2933649A0068F164 /* HTTPClient.swift in Sources */,
+				AB5570A8293377030068F164 /* ErrorItem.swift in Sources */,
+				AB5570B129338E120068F164 /* String + Estensions.swift in Sources */,
+				AB5570AC2933833A0068F164 /* Endpoint.swift in Sources */,
 				AB1FABAF2932876200AB8A6A /* Constants.swift in Sources */,
+				AB5570AA2933805C0068F164 /* PaymentEndpoint.swift in Sources */,
+				AB55709B2933624B0068F164 /* PaymentService.swift in Sources */,
 				AB1FABB529328A5B00AB8A6A /* BestRatesVMImpl.swift in Sources */,
+				AB5570A529336F330068F164 /* ErrorCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,6 +674,7 @@
 /* Begin XCBuildConfiguration section */
 		AB1FAB8F29326C3B00AB8A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5570B92933A08C0068F164 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -616,6 +735,7 @@
 		};
 		AB1FAB9029326C3B00AB8A6A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5570B92933A08C0068F164 /* Config.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
@@ -870,6 +990,14 @@
 				kind = branch;
 			};
 		};
+		AB5570AD29338D3B0068F164 /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -882,6 +1010,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = AB1FAB9D293276C100AB8A6A /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityLogger" */;
 			productName = AlamofireNetworkActivityLogger;
+		};
+		AB5570AE29338D3B0068F164 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AB5570AD29338D3B0068F164 /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
