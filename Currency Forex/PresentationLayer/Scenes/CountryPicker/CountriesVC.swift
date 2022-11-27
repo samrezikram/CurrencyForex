@@ -40,6 +40,16 @@ class CountriesVC: UIViewController {
       tableView.reloadData()
     }
   }
+  @IBOutlet weak var tableViewHeiht: NSLayoutConstraint!
+  
+  override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+    super.viewWillTransition(to: size, with: coordinator)
+    if UIDevice.current.orientation.isLandscape {
+      self.tableViewHeiht.constant = UIScreen.main.bounds.height - 100
+    } else  {
+      self.tableViewHeiht.constant = 465
+    }
+  }
   
   private let bag = DisposeBag()
   

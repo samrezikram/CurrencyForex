@@ -13,6 +13,7 @@
             <connections>
                 <outlet property="destinationPKFlag" destination="9G1-Ya-Tbu" id="cId-DI-EcS"/>
                 <outlet property="detail" destination="wDv-wS-Lsd" id="DyQ-Dw-owM"/>
+                <outlet property="detailHeightContraint" destination="UuU-Ei-6Db" id="V5k-mz-wkb"/>
                 <outlet property="lbDestinationCurrency" destination="SNI-0a-X0e" id="6jn-uz-bcz"/>
                 <outlet property="lbLastUpdate" destination="ZY4-4z-hUc" id="eDL-RX-zlf"/>
                 <outlet property="lbSourceCurrency" destination="laG-dm-yYT" id="UH2-Yo-Foo"/>
@@ -294,7 +295,7 @@
                         <constraint firstAttribute="trailing" secondItem="ZY4-4z-hUc" secondAttribute="trailing" constant="30" id="i4a-Um-Soh"/>
                     </constraints>
                 </stackView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDv-wS-Lsd">
+                <button opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wDv-wS-Lsd">
                     <rect key="frame" x="126" y="426.5" width="162" height="44"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="162" id="GSH-gk-8wF"/>
@@ -311,11 +312,11 @@
             <constraints>
                 <constraint firstItem="iqJ-lL-IHX" firstAttribute="leading" secondItem="9pq-AZ-OBy" secondAttribute="leading" id="184-Ze-anf"/>
                 <constraint firstItem="wDv-wS-Lsd" firstAttribute="centerX" secondItem="I42-Lu-F7M" secondAttribute="centerX" id="TDt-cD-nZU"/>
+                <constraint firstItem="wDv-wS-Lsd" firstAttribute="top" secondItem="I42-Lu-F7M" secondAttribute="bottom" constant="50" id="UuU-Ei-6Db"/>
                 <constraint firstItem="I42-Lu-F7M" firstAttribute="top" secondItem="iqJ-lL-IHX" secondAttribute="bottom" constant="44" id="ZKp-bV-eCD"/>
                 <constraint firstItem="I42-Lu-F7M" firstAttribute="trailing" secondItem="9pq-AZ-OBy" secondAttribute="trailing" id="ZR8-Q5-EKM"/>
                 <constraint firstItem="I42-Lu-F7M" firstAttribute="leading" secondItem="9pq-AZ-OBy" secondAttribute="leading" id="a0C-OR-9tL"/>
                 <constraint firstItem="iqJ-lL-IHX" firstAttribute="trailing" secondItem="9pq-AZ-OBy" secondAttribute="trailing" id="aMj-kw-uWh"/>
-                <constraint firstItem="wDv-wS-Lsd" firstAttribute="top" secondItem="I42-Lu-F7M" secondAttribute="bottom" constant="50" id="cWT-Vk-nth"/>
                 <constraint firstItem="iqJ-lL-IHX" firstAttribute="top" secondItem="9pq-AZ-OBy" secondAttribute="top" id="ghR-eI-qrM"/>
             </constraints>
             <point key="canvasLocation" x="137.68115942028987" y="75.669642857142847"/>

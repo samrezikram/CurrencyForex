@@ -51,6 +51,7 @@ class BestRatesVC: UIViewController {
     }
   }
   
+  @IBOutlet weak var detailHeightContraint: NSLayoutConstraint!
   private var bottomSheetController: JPBottomSheetVC?
 
   private let disposeBag = DisposeBag()
@@ -61,6 +62,15 @@ class BestRatesVC: UIViewController {
 
   override func viewDidLoad() {
     super.viewDidLoad()
+  }
+  
+  override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
+    super.viewWillTransition(to: size, with: coordinator)
+    if UIDevice.current.orientation.isLandscape {
+      detailHeightContraint.constant = 10
+    } else  {
+      detailHeightContraint.constant = 50
+    }
   }
   
   private func showCountryPicker() {
@@ -142,7 +152,6 @@ extension BestRatesVC: BindableType {
 extension BestRatesVC: CountriesVCDelegate {
   func countrySelected(_ country: CountryItem) {
     bottomSheetController?.dismiss(animated: true, completion: nil)
-    let countryCode = country.alpha2Code ?? ""
     if self.isSourceSelection {
       self.viewModel.output.sourceCountry.accept(country)
     } else {
