@@ -11,7 +11,7 @@ import Alamofire
 enum PaymentEndpoint {
   case convert
   case historicalRates
-  case fluctuation
+  case fluctuation(access_key: String, startDate: String, endDate: String, baseCurrency: String, targetCurrencies: [String]?)
 }
 
 extension PaymentEndpoint: Endpoint {
@@ -23,7 +23,7 @@ extension PaymentEndpoint: Endpoint {
       return "convert"
     case .historicalRates:
       return "timeseries"
-    case .fluctuation:
+    case .fluctuation(_, _, _, _, _):
       return "fluctuation"
     }
   }
@@ -37,6 +37,17 @@ extension PaymentEndpoint: Endpoint {
   
   var parameters: Parameters? {
     switch self {
+    case .fluctuation(let access_key, let startDate, let endDate, let baseCurrency, let targetCurrencies):
+      var params: [String: Any] = [:]
+      let outputCurrencies = targetCurrencies?.joined(separator: ", ")
+      if let outputCurrencies = outputCurrencies { params["symbols"] = outputCurrencies }
+      params["access_key"] = access_key
+
+      params["start_date"] = startDate
+      params["start_date"] = startDate
+      params["end_date"] = endDate
+      params["base"] = baseCurrency
+      return params
     default:
       return nil
     }

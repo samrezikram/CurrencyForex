@@ -51,12 +51,37 @@ class BestRatesVMImpl: BestRatesVM, BestRatesVMInput, BestRatesVMOutput {
   private let router: UnownedRouter<AppRoute>
   private let paymentService: PaymentService
   private var isFirstLaunch: Bool = false
+  private var currentRemittance​Countries: [CountryNameItem] = []
 
   // MARK: - Init
   init(router: UnownedRouter<AppRoute>, paymentService: PaymentService, isFirstLaunch: Bool) {
     self.router = router
     self.paymentService = paymentService
     self.isFirstLaunch = isFirstLaunch
+  }
+  
+  func fetchRemittance​Countries() {
+    if self.remittance​Countries.value?.count == 0 {
+      self.isLoading.accept(true)
+      Task(priority: .background) {
+        let result = await self.paymentService.fluctuation(access_key: Constants.Network.API.apiKey, startDate: "2022-11-01", endDate: "2022-11-10", baseCurrency: "AED", targetCurrencies: ["USD", "PKR"])
+        DispatchQueue.main.async {
+          self.isLoading.accept(false)
+          switch result {
+          case .success(let countries):
+//            self.currentRemittance​Countries = countries
+//            guard let country = self.currentRemittance​Countries.first(where: { $0.code == "USA" }) else { return }
+//            self.updateCountry(country)
+            print(countries)
+          case .failure(let error):
+            print(error)
+
+          }
+        }
+      }
+    } else {
+      self.remittance​Countries.accept(self.currentRemittance​Countries)
+    }
   }
   
 }

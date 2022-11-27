@@ -54,6 +54,7 @@
 		AB9EEA3C2933D3A0009530E5 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9EEA3A2933D3A0009530E5 /* CountryTableViewCell.swift */; };
 		AB9EEA3D2933D3A0009530E5 /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB9EEA3B2933D3A0009530E5 /* CountryTableViewCell.xib */; };
 		AB9EEA402933D53A009530E5 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9EEA3F2933D53A009530E5 /* Reusable.swift */; };
+		AB9EEA422933F90D009530E5 /* RemitanceItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB9EEA412933F90D009530E5 /* RemitanceItems.swift */; };
 		F40D8602A14DAE47EDD54D3E /* Pods_Currency_Forex_Currency_ForexUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66E0DA300C81799276573768 /* Pods_Currency_Forex_Currency_ForexUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -128,6 +129,7 @@
 		AB9EEA3A2933D3A0009530E5 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
 		AB9EEA3B2933D3A0009530E5 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
 		AB9EEA3F2933D53A009530E5 /* Reusable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		AB9EEA412933F90D009530E5 /* RemitanceItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemitanceItems.swift; sourceTree = "<group>"; };
 		DC3F811C642553CA71E000E8 /* Pods_Currency_Forex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Currency_Forex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4F1BD2B6C7099FC504FC881 /* Pods-Currency Forex-Currency ForexUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Currency Forex-Currency ForexUITests.release.xcconfig"; path = "Target Support Files/Pods-Currency Forex-Currency ForexUITests/Pods-Currency Forex-Currency ForexUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -338,6 +340,7 @@
 			children = (
 				AB5570BF2933BEFC0068F164 /* Country */,
 				AB5570A029336F330068F164 /* Error */,
+				AB9EEA412933F90D009530E5 /* RemitanceItems.swift */,
 			);
 			path = Entities;
 			sourceTree = "<group>";
@@ -715,6 +718,7 @@
 				AB9EEA342933CC0E009530E5 /* JPPaddingTextField.swift in Sources */,
 				AB9EEA2D2933C18F009530E5 /* CountriesVC.swift in Sources */,
 				AB5570C62933BEFC0068F164 /* CountryNameItem.swift in Sources */,
+				AB9EEA422933F90D009530E5 /* RemitanceItems.swift in Sources */,
 				AB9EEA322933C2E2009530E5 /* Collection + Extensions.swift in Sources */,
 				AB5570A429336F330068F164 /* ErrorDetailsItem.swift in Sources */,
 				AB5570C72933BEFC0068F164 /* CountryCallItem.swift in Sources */,

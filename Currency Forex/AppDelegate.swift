@@ -7,6 +7,7 @@
 
 import UIKit
 import ZVProgressHUD
+import AlamofireNetworkActivityLogger
 let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
 let appCoordinator = AppCoordinator()
@@ -38,6 +39,9 @@ extension AppDelegate {
     
     /// Configure AppHelper
     AppHelper.shared.initData()
+    
+    NetworkActivityLogger.shared.startLogging()
+    NetworkActivityLogger.shared.level = .debug
     
     appCoordinator.strongRouter.setRoot(for: self.window)
     appCoordinator.rootViewController.navigationController?.navigationBar.isHidden = true

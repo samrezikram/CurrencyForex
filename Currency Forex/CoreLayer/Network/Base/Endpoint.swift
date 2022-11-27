@@ -13,7 +13,7 @@ protocol Endpoint {
   var version: String { get }
   var path: String { get }
   var method: HTTPMethod { get }
-  var header: [String: String]? { get }
+  var header: HTTPHeaders { get }
   var parameters: Parameters? { get }
   var interceptor: RequestInterceptor? { get }
   var encoding: ParameterEncoding { get }
@@ -29,10 +29,10 @@ extension Endpoint {
     return Constants.Network.API.version
   }
   
-  var header: [String: String]? {
+  var header: HTTPHeaders {
     return [
-      "Content-Type": "application/json;charset=utf-8",
-      "access_key": Constants.Network.API.apiKey
+      HTTPHeader(name: "Content-Type", value: "application/json;charset=utf-8"),
+      HTTPHeader(name: "access_key", value: Constants.Network.API.apiKey),
     ]
   }
   

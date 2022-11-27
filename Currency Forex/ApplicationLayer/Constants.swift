@@ -12,7 +12,7 @@ struct Constants {
   struct Network {
     struct API {
       static let version = "v0"
-      static let baseUrl = "https://data.fixer.io/"
+      static let baseUrl = "https://data.fixer.io"
       static let apiKey = Environment.apiKey
     }
   }

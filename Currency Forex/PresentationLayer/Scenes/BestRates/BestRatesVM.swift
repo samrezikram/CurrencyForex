@@ -13,6 +13,8 @@ protocol BestRatesVMInput {
   var detailTrigger: AnyObserver<Void> { get }
   var sourceCurrencyTrigger: AnyObserver<Void> { get }
   var destinationCurrencyTrigger: AnyObserver<Void> { get }
+  
+  func fetchRemittance​Countries()
 }
 
 protocol BestRatesVMOutput {
@@ -33,7 +35,6 @@ protocol BestRatesVMOutput {
 protocol BestRatesVM {
   var input: BestRatesVMInput { get }
   var output: BestRatesVMOutput { get }
-
 }
 
 extension BestRatesVM where Self: BestRatesVMInput & BestRatesVMOutput {

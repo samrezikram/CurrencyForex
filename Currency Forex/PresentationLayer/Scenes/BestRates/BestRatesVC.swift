@@ -90,6 +90,7 @@ class BestRatesVC: UIViewController {
   
   @objc private func detailRatesAction() {
     print("detailRatesAction")
+    self.viewModel.input.fetchRemittance​Countries()
   }
   
 }

@@ -20,10 +20,9 @@ extension HTTPClient {
     guard let url = URL(string: String("\(endpoint.baseURL)/api/\(endpoint.path)")) else {
       return .failure(ErrorItem(code: .none, message: "Invalid url"))
     }
-    
-    
-    let dataTask = AF.request(url, method: endpoint.method, parameters: endpoint.parameters, encoding: endpoint.encoding, interceptor: nil).validate().serializingData()
-    
+
+
+    let dataTask = AF.request(url, method: endpoint.method, parameters: endpoint.parameters, encoding: endpoint.encoding, headers: endpoint.header, interceptor: nil).validate().serializingData()
     let response = await dataTask.response
     guard let statusCode = response.response?.statusCode else {
       return .failure(ErrorItem(code: .none, message: "Invalid status code"))
@@ -37,6 +36,7 @@ extension HTTPClient {
       let responseData = data
       do {
         let decodedItem = try JSONDecoder().decode(responseModel, from: responseData)
+        print(decodedItem)
         return .success(decodedItem)
       } catch {
         return .success(true as! T)
